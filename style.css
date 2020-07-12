@@ -1,0 +1,75 @@
+body {
+    background-color: white;
+    text-align: center;
+
+  }
+  
+  h1 {
+    color: #fff;
+    font-family: cursive;
+    font-size: 40px;
+    background-color:#20221f;
+    border-radius: 20px;
+    display: inline-block;
+    padding: 10px;
+    width: 60%;
+    font-family: cursive;
+    text-transform: uppercase;
+    font-style: italic;
+    margin-top: 30px;
+  }
+  
+
+  
+  #apple {
+    position: absolute;
+    top: 300px;
+    left: 500px;
+    width: 400px;
+    height:400px;
+    border-radius: 69% 69% 96% 51% / 56% 69% 96% 60%;
+    background: radial-gradient(#43b347,#258229);
+    transition: all .5s;
+  }
+
+  #apple:hover {
+    background: radial-gradient(#a52a24, #8b0000);
+  }
+
+  
+  #circle {
+    position: absolute;
+    top: 220px;
+    left: 670px;
+    width: 90px;
+    height: 90px;
+    background-color: #fff;
+    border-radius: 60px;
+    border: 1px solid white;
+  }
+  
+ 
+  
+  #stalk {
+    position: absolute;
+    top: 231px;
+    left: 705px;
+    width: 15px;
+    height: 80px;
+    background: radial-gradient(#50301e, #a52a24);
+    border-radius: 42% 29% 1% 97% / 53% 10% 28% 86%;
+    border: 1px solid black;
+  }
+  
+  #leaves {
+    position: absolute;
+    top: 206px;
+    left: 614px;
+    width: 90px;
+    height: 70px;
+    background: radial-gradient(#32cd32, #228b22);
+    border-radius: 0% 100%;
+    border: 1px dotted green;
+  }
+  
+  
